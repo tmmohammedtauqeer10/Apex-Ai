@@ -1,5 +1,4 @@
-
-🤖 My AI Chatbot (Self-Hosted)
+🤖 Apex AI Chatbox
 A fully private, self-hosted AI chatbot running locally on your machine using Ollama + Open WebUI. No data leaves your computer.
 📁 What's Inside
 Table
@@ -10,8 +9,8 @@ README.md	This file
 ⚡ Quick Start (3 Steps)
 1. Clone this repo
 bash
-git clone https://github.com/YOUR_USERNAME/My-AI-Chatbot.git
-cd My-AI-Chatbot
+git clone https://github.com/YOUR_USERNAME/apex-ai-chatbox.git
+cd apex-ai-chatbox
 2. Run the setup
 bash
 ./setup.sh
@@ -52,10 +51,10 @@ sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
 sudo systemctl restart docker
 🛠️ Common Commands
 bash
-# Start chatbot
+# Start Apex AI Chatbox
 docker-compose up -d
 
-# Stop chatbot
+# Stop Apex AI Chatbox
 docker-compose down
 
 # View logs
@@ -96,4 +95,4 @@ Use a smaller model like phi4
 Enable GPU support (see above)
 Close other applications
 📜 License
-MIT — Free to use and modify
+MIT — Free to use and modify.
