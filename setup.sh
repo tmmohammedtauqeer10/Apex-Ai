@@ -2,7 +2,7 @@
 set -e
 
 echo "=========================================="
-echo "  My AI Chatbot - Setup Script"
+echo "  Apex AI Chatbox - Setup Script"
 echo "=========================================="
 
 # Check if Docker is installed
@@ -20,7 +20,7 @@ fi
 
 echo "✅ Docker found"
 echo ""
-echo "🚀 Starting containers..."
+echo "🚀 Starting Apex AI Chatbox containers..."
 docker-compose up -d
 
 echo ""
@@ -33,7 +33,7 @@ docker exec -it ollama ollama pull llama3.1
 
 echo ""
 echo "=========================================="
-echo "  ✅ Setup Complete!"
+echo "  ✅ Apex AI Chatbox Setup Complete!"
 echo "=========================================="
 echo ""
 echo "🌐 Open your browser: http://localhost:3000"
