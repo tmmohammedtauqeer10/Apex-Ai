@@ -26,7 +26,7 @@ services:
     environment:
       - OLLAMA_BASE_URL=http://ollama:11434
       - WEBUI_AUTH=False
-      - WEBUI_NAME=My AI Chatbot
+      - WEBUI_NAME=Apex AI Chatbox
     volumes:
       - open-webui:/app/backend/data
     depends_on:
