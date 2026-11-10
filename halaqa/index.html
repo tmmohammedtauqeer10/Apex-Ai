@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Halaqa — Sunni Islam · Tasawwuf · private useful circles</title>
+    <meta
+      name="description"
+      content="Halaqa openly follows Sunni Islam and Tasawwuf according to Islam. Private circles, halal content, useful daily life."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="top">
+      <div class="brand-mark" aria-hidden="true"></div>
+      <div class="brand-block">
+        <p class="brand">Halaqa</p>
+        <p class="brand-ideology">Sunni Islam · Tasawwuf</p>
+      </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="#ideology">Ideology</a>
+        <a href="#circles">Circles</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#values">Values</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-label="Halaqa">
+        <div class="hero-veil" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="brand-hero">Halaqa</p>
+          <h1>Private circles for useful, halal daily life.</h1>
+          <p class="lede">
+            Open ideology: Sunni Islam, with Tasawwuf practiced according to
+            Islam. Share useful help inside invite-only circles — not a public
+            square.
+          </p>
+          <div class="cta-row">
+            <a class="cta" href="#circles">Open a circle</a>
+            <a class="cta-ghost" href="#ideology">Read our ideology</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="ideology" class="section ideology">
+        <div class="section-head">
+          <h2>Our ideology — shown openly</h2>
+          <p>
+            Halaqa does not hide its path. Every feature must fit this frame.
+          </p>
+        </div>
+        <div class="ideology-panel">
+          <p class="ideology-line"><strong>Sunni Islam</strong></p>
+          <p class="ideology-line">
+            <strong>Tasawwuf</strong> practiced according to Islam
+          </p>
+          <ul>
+            <li>Sincerity and humility over showy spirituality</li>
+            <li>Privacy and dignity for every person</li>
+            <li>Useful benefit for daily life</li>
+            <li>Halal speech, media, and habits only</li>
+            <li>Not a mufti — ambiguous rulings go to a qualified scholar</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="circles" class="section circles">
+        <div class="section-head">
+          <h2>Your circles</h2>
+          <p>Sample data for preview. Posts stay inside the circle you choose.</p>
+        </div>
+
+        <div class="circle-switch" role="tablist" aria-label="Choose a circle">
+          <button class="chip is-active" role="tab" aria-selected="true" data-circle="family">
+            Family
+          </button>
+          <button class="chip" role="tab" aria-selected="false" data-circle="study">
+            Study group
+          </button>
+          <button class="chip" role="tab" aria-selected="false" data-circle="mosque">
+            Mosque class
+          </button>
+        </div>
+
+        <form class="composer" id="composer">
+          <label for="post-body">Share something useful</label>
+          <textarea
+            id="post-body"
+            name="body"
+            maxlength="280"
+            rows="3"
+            placeholder="A tip, reminder, or note that helps someone today…"
+            required
+          ></textarea>
+          <div class="composer-bar">
+            <p class="hint">Private to this circle · not a fatwa · sample only</p>
+            <button type="submit">Post to circle</button>
+          </div>
+        </form>
+
+        <ol class="feed" id="feed" aria-live="polite"></ol>
+      </section>
+
+      <section id="privacy" class="section privacy">
+        <div class="section-head">
+          <h2>Privacy defaults</h2>
+          <p>Least data. Closed sharing. You can leave or delete.</p>
+        </div>
+        <ul class="toggle-list" id="privacy-toggles">
+          <li>
+            <div>
+              <strong>Private by default</strong>
+              <span>New posts stay inside the circle unless you choose otherwise.</span>
+            </div>
+            <label class="switch">
+              <input type="checkbox" checked data-key="privateDefault" />
+              <span>On</span>
+            </label>
+          </li>
+          <li>
+            <div>
+              <strong>Quiet hours</strong>
+              <span>No push noise between Isha and Fajr window you set.</span>
+            </div>
+            <label class="switch">
+              <input type="checkbox" checked data-key="quietHours" />
+              <span>On</span>
+            </label>
+          </li>
+          <li>
+            <div>
+              <strong>Family guardian mode</strong>
+              <span>Younger accounts need a guardian for invites and media.</span>
+            </div>
+            <label class="switch">
+              <input type="checkbox" checked data-key="guardian" />
+              <span>On</span>
+            </label>
+          </li>
+          <li>
+            <div>
+              <strong>No data sale</strong>
+              <span>Personal posts and contacts are never sold.</span>
+            </div>
+            <label class="switch">
+              <input type="checkbox" checked disabled data-key="noSale" />
+              <span>Locked</span>
+            </label>
+          </li>
+        </ul>
+      </section>
+
+      <section id="values" class="section values">
+        <div class="section-head">
+          <h2>Under this open ideology</h2>
+          <p>
+            Built for Sunni Islam and Tasawwuf according to Islam. This product
+            is not a mufti.
+          </p>
+        </div>
+        <div class="value-grid">
+          <article>
+            <h3>Build now</h3>
+            <ul>
+              <li>Invite-only circles and private messages</li>
+              <li>Useful daily tips, study notes, charity needs</li>
+              <li>Prayer and calendar reminders without inventing rulings</li>
+              <li>Report, block, mute, leave, export, delete</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Ask a scholar first</h3>
+            <ul>
+              <li>Public mixed-gender live sessions</li>
+              <li>Donations, marketplace, Zakat tools that claim a ruling</li>
+              <li>Image and video rules for faces and gatherings</li>
+              <li>Ads, tips, and creator payouts</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Refuse</h3>
+            <ul>
+              <li>Pornography, intoxicants, gambling, interest pitches</li>
+              <li>Fortune-telling and showy secret spirituality</li>
+              <li>Infinite addictive feed and dark-pattern alerts</li>
+              <li>Selling personal data or anonymous pile-ons</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <p>
+        <strong>Halaqa</strong> · Sunni Islam · Tasawwuf · sample preview ·
+        WorkStudio AI
+      </p>
+      <p>Not a fatwa. A qualified scholar reviews ambiguous rulings before launch.</p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
