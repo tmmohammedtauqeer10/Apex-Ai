@@ -6,6 +6,8 @@ The agent project is in `workstudio-ai/`.
 
 ## Assumptions
 
+- The owner's ideology is Sunni Islam, with Tasawwuf practiced according to Islam.
+- Product advice prefers privacy, halal content, and useful daily-life benefit. The agent is not a mufti.
 - The chat surface is the local playground and HTTP. No Slack, GitHub, or other connector is attached.
 - Product usage comes from sources the person saves. There is no analytics connector.
 - A request to send, publish, or change a shared record waits for approval. The approved text is stored. It is not sent to an external channel.
