@@ -6,7 +6,7 @@ description: Use when the work must fit Sunni Islam and Tasawwuf, or when judgin
 
 Owner frame: Sunni Islam, with Tasawwuf practiced according to Islam.
 
-1. Call `recall_workspace` for ideology notes and product drafts. Also read `islamic-social-brief.md` in the workspace when the topic is in-app social.
+1. Call `recall_workspace` for ideology notes and product drafts. Also read `product-final.md` and `islamic-social-brief.md` in the workspace when the topic is Halaqa or in-app social.
 2. State the aim in one sentence: sincerity, useful benefit (`manfaʿah`), privacy, and content that stays within Islamic limits.
 3. Separate three lists:
    - Allowed to build now (useful, private by default, clearly beneficial for daily life)
