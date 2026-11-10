@@ -71,11 +71,25 @@ body {
   box-shadow: 0 0 0 4px rgba(63, 107, 87, 0.18);
 }
 
+.brand-block {
+  display: grid;
+  gap: 0.1rem;
+}
+
 .brand {
   margin: 0;
   font-family: var(--font-display);
   font-weight: 700;
   letter-spacing: 0.02em;
+}
+
+.brand-ideology {
+  margin: 0;
+  color: var(--sage-deep);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .nav {
@@ -216,6 +230,30 @@ body {
   margin: 0;
   color: var(--ink-soft);
   max-width: 42rem;
+}
+
+.ideology-panel {
+  padding: 1.25rem 1.35rem;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(18, 32, 28, 0.08);
+  border-radius: var(--radius);
+  max-width: 40rem;
+}
+
+.ideology-line {
+  margin: 0 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+}
+
+.ideology-panel ul {
+  margin: 1rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--ink-soft);
+}
+
+.ideology-panel li + li {
+  margin-top: 0.35rem;
 }
 
 .circle-switch {

@@ -1,6 +1,6 @@
 # Halaqa — complete final product
 
-Assumption: product name is **Halaqa** (Arabic for a learning circle). Ideology: Sunni Islam, with Tasawwuf practiced according to Islam. This document is not a fatwa.
+Assumption: product name is **Halaqa** (Arabic for a learning circle). Ideology: Sunni Islam, with Tasawwuf practiced according to Islam. This ideology is shown openly in the product UI. This document is not a fatwa.
 
 ## 1. Idea
 
@@ -76,6 +76,7 @@ Sample posts in the MVP are fictional preview data.
 
 Path: `halaqa/`
 
+- Ideology shown openly in header, hero, Ideology section, values, and footer
 - Landing with brand-first hero
 - Circle switcher: Family, Study group, Mosque class
 - Useful post composer (local sample only)
