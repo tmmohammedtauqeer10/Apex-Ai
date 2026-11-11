@@ -8,6 +8,7 @@ The complete social product is **Halaqa**: private circles for useful,halal dail
 
 - Agent: `workstudio-ai/`
 - Halaqa MVP: `halaqa/`
+- Deen Flow library: `deen-flow/`
 - Final product bible: `workstudio-ai/bot/sandbox/workspace/product-final.md`
 
 ## Assumptions
@@ -26,6 +27,18 @@ python3 -m http.server 4173 --bind 127.0.0.1
 ```
 
 Open `http://127.0.0.1:4173`.
+
+## Run Deen Flow
+
+Darood Sharif, Ruhani Ilaj (ruqyah from the Qur'an and Sunnah), Duas, and Azkar. Each text stays in its own section, with the Islamic reference beside it.
+
+From the repository root, so Halaqa and Deen Flow can link to each other:
+
+```bash
+python3 -m http.server 4173 --bind 127.0.0.1
+```
+
+Open `http://127.0.0.1:4173/deen-flow/` and `http://127.0.0.1:4173/halaqa/`.
 
 ## Run WorkStudio AI
 
