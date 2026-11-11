@@ -409,6 +409,16 @@ body {
   font-size: 1.25rem;
 }
 
+.deen-band p {
+  margin: 0 0 0.75rem;
+  color: var(--ink-soft);
+}
+
+.deen-band a {
+  color: var(--sage-deep);
+  font-weight: 700;
+}
+
 .value-grid ul {
   margin: 0;
   padding-left: 1.1rem;
@@ -469,6 +479,10 @@ body {
 
   .value-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .deen-band .value-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
